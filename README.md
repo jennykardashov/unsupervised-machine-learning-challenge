@@ -26,7 +26,7 @@ You have been provided with raw data, so you’ll first need to process it to fi
 
 - Determined the elbow of the plot and the K value.
 
-Part 4: Make a Recommendation
+## Part 4: Make a Recommendation
 
 - Using PCA(n_components=0.90) creates a model that will preserve approximately 90% of the explained variance, that means reducing the dataset to 10 principal components
 - Using t-SNE,the principal components is further reduced to 2 components to visualize the data.
