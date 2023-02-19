@@ -7,23 +7,18 @@ You have been provided with raw data, so you’ll first need to process it to fi
 ## Part 1: Prepare the Data
 
 - Data is prepared and dataframe is created using the csv file
-
 - Removed the "MYOPIC" column from the dataset.
 
 ## Part 2: Apply Dimensionality Reduction
 
 - Performed dimensionality reduction with PCA.The number of featured reduced to 10 from 14 as the n_components was set to 0.90.
-
 - Further reduced the dataset dimensions with t-SNE and visually inspected the results. To do this, ran the t-SNE on the principal components, which is the output of the PCA transformation.
-
 - Scatter plot is created
 
 ## Part 3: Perform a Cluster Analysis with K-means
 
 - Elbow plot is created to find the best number of clusters
-
 - Used a for loop to determine the inertia for each k between 1 through 10.
-
 - Determined the elbow of the plot and the K value.
 
 ## Part 4: Make a Recommendation
